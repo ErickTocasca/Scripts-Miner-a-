@@ -1,0 +1,7 @@
+# SCRIPTS DE MINERÍA 
+
+Este proyecto contendrá diferentes scripts desarrolados para entender la programación con Python pero orientado hacia la industria minera.
+
+## OBJETIVO:
+* Automatizar calculos utilez para la industria minera.
+* Practicar la Programación con Python.
