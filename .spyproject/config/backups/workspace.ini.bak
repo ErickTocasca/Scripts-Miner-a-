@@ -6,5 +6,5 @@ save_non_project_files = False
 
 [main]
 version = 0.2.0
-recent_files = ['CURVA TONELAJE LEY\\PythonMB.py']
+recent_files = ['GUI_MINERIA\\prueba1.py', 'GUI_MINERIA\\prueba2.py', 'GUI_MINERIA\\main.py', 'GUI_MINERIA\\programas.py']
 
