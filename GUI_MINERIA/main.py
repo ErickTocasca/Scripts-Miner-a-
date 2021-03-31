@@ -4,6 +4,8 @@ import os.path
 from tkinter import messagebox
 from PIL import Image, ImageTk
 from programas import Programas
+
+
 ventana = Tk()
 
 ventana.title("Mining App | Erick Tocasca")
@@ -19,6 +21,7 @@ Label(ventana, image = render).grid(row=0, column=0)
 #Comandos para los menus
 seguridad = Programas().seguridad
 curva = Programas().Cur_Ton_Ley
+scoop = Programas().scoop
 
 mi_menu = Menu(ventana)
 ventana.config(menu=mi_menu)
@@ -36,7 +39,11 @@ programas = Menu(mi_menu, tearoff=0)
 programas.add_command(label="Seguridad", command=seguridad)
 programas.add_separator()
 programas.add_command(label="Curva-Ton-Ley", command=curva)
-programas.add_command(label="Abrir el ultimo cerrado")
+programas.add_command(label="ScoopTram", command=scoop)
+programas.add_command(label="Sostenimiento")
+programas.add_separator()
+programas.add_command(label="Ventilación")
+programas.add_command(label="lerch-grossman")
 programas.add_command(label="Abierto recientemente")
 programas.add_separator()
 programas.add_command(label="Salir", command=ventana.destroy)
