@@ -22,6 +22,8 @@ Label(ventana, image = render).grid(row=0, column=0)
 seguridad = Programas().seguridad
 curva = Programas().Cur_Ton_Ley
 scoop = Programas().scoop
+sostenimiento = Programas().Sostenimiento
+ventila = Programas().Ventilacion
 
 mi_menu = Menu(ventana)
 ventana.config(menu=mi_menu)
@@ -40,9 +42,9 @@ programas.add_command(label="Seguridad", command=seguridad)
 programas.add_separator()
 programas.add_command(label="Curva-Ton-Ley", command=curva)
 programas.add_command(label="ScoopTram", command=scoop)
-programas.add_command(label="Sostenimiento")
+programas.add_command(label="Sostenimiento", command=sostenimiento)
 programas.add_separator()
-programas.add_command(label="Ventilación")
+programas.add_command(label="Ventilación", command=ventila)
 programas.add_command(label="lerch-grossman")
 programas.add_command(label="Abierto recientemente")
 programas.add_separator()
